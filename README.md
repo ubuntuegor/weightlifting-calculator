@@ -1,2 +1,3 @@
-# weightlifting-calculator
-A simple calculator for weightlifting
+# Weightlifting Calculator
+A simple PWA calculator which shows what weights to put on a barbell.
+[Demo](https://ubuntuegor.com/weight/)
