@@ -1,0 +1,48 @@
+{
+  "short_name": "Weight",
+  "name": "Weightlifting Support Tool",
+  "icons": [
+    {
+      "src": "48icon.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "96icon.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+    "src": "128icon.png",
+    "type": "image/png",
+    "sizes": "128x128"
+  }, {
+    "src": "152icon.png",
+    "type": "image/png",
+    "sizes": "152x152"
+  }, {
+    "src": "144icon.png",
+    "type": "image/png",
+    "sizes": "144x144"
+  },
+    {
+      "src": "192icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "256icon.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "512icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./",
+  "background_color": "#111111",
+  "theme_color": "#222222",
+  "display": "standalone"
+}

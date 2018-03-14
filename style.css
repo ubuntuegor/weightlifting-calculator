@@ -1,0 +1,117 @@
+@media screen and (max-width: 600px){
+	.container {
+		width: 100% !important;
+	}
+}
+@media screen and (max-height: 400px){
+	.container {
+		margin: 0 auto !important;
+	}
+}
+
+
+body {
+	margin: 0;
+	background-color: #333;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	width: 600px;
+	margin: 15px auto;
+	background-color: #111;
+	outline: solid #444 1px;
+    box-shadow: 0px 4px 73px #000;
+    color: #fff;
+}
+.settings {
+	overflow: hidden;
+	transition: height 0.4s ease-out;
+	background-color: rgba(255, 255, 255, 0.2);
+	color: white;
+}
+.settings table {
+	padding: 10px;
+}
+#weight{
+	display: block;
+	width: 100%;
+	background: transparent !important;
+	outline: none;
+	font-size: 70px;
+	color: yellow;
+	border: none;
+	font-weight: bold;
+	text-align: center;
+}
+#weight::-webkit-inner-spin-button, 
+#weight::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.bar {
+	padding: 10px;
+	text-align: right;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), transparent);
+}
+.icon {
+	height: 24px;
+	width: 24px;
+	display: inline-block;
+	background-image: url("icons.png");
+	background-position: 0px 24px;
+	transition: background-position 0.2s ease;
+	cursor: pointer;
+}
+.disks {
+	display: flex;
+	font-size: 30px;
+}
+.disk {
+	display: inline-block;
+	flex: 1 auto;
+	text-align: center;
+}
+.disk p {
+	margin: 0;
+	padding: 5px;
+}
+.disk p.title {
+	font-weight: bold;
+	border-bottom: solid 1px white;
+	font-size: 22px;
+}
+.color {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	outline: solid 1px #fff;
+	background-color: #0ff;
+}
+.error {
+	background-color: #f00;
+}
+#pic {
+	display: block;
+	margin: auto;
+	user-select: none;
+}
+.plicon {
+	display: inline-block;
+	width: 70px;
+	cursor: pointer;
+	background-position: center;
+	background-repeat: no-repeat;
+	flex: 0 0 auto;
+}
+.plus {
+	background-image: url("plus.png");
+}
+.minus {
+	background-image: url("minus.png");
+}
+.flex {
+	display: flex;
+}

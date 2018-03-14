@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#222222">
+	<meta name="description" content="Special tool for counting disks needed for your weight.">
+  	<meta name="keywords" content="Weightlifting, Weight, disks">
+  	<link rel="icon" sizes="192x192" href="192icon.png">
+  	<link rel="shortcut icon" href="/weight/favicon.ico?v=2" type="image/x-icon">
+	<title>Weight</title>
+	<link rel="manifest" href="manifest.json">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet" async>
+</head>
+<body>
+	<div class="container">
+		<div class="settings">
+		</div>
+		<div class="bar"><span class="icon" onclick="toggleSettings()"></span></div>
+		<div class="flex">
+		<div class="plicon minus" onclick="butt('-')"></div>
+		<input type="number" id="weight" min="0" step="2.5" onchange="draw()">
+		<div class="plicon plus" onclick="butt('+')"></div>
+		</div>
+		<canvas id="pic" width="300" height="150"></canvas>
+		<div class="disks">
+		</div>
+		<noscript>Please consider turning on JavaScript in your browser!</noscript>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
