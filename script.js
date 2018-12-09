@@ -83,14 +83,14 @@ function init(){
 		window.localStorage.clear();
 		location.reload();
 	}
-	button.textContent = "Reset";
+	button.textContent = "Сброс";
 	var sec = document.createElement("td");
 	var check = document.createElement("input");
 	check.type = "checkbox";
 	check.id = "security";
 	check.checked = "on";
 	var label = document.createElement("label");
-	label.textContent = "Prevent wrong values";
+	label.textContent = "Защита от неверных значений";
 	label.setAttribute("for", "security");
 	hhh.appendChild(button);
 	sec.appendChild(check);
@@ -100,7 +100,7 @@ function init(){
 	tbl.appendChild(row);
 	var row = document.createElement("tr");
 	var name = document.createElement("td");
-	name.innerHTML = "Step";
+	name.innerHTML = "Шаг";
 	var hhh = document.createElement("td");
 	var input = document.createElement("input");
 		input.setAttribute("type", "number");
@@ -115,7 +115,7 @@ function init(){
 	tbl.appendChild(row);
 	var row = document.createElement("tr");
 	var name = document.createElement("td");
-	name.innerHTML = "Barbell";
+	name.innerHTML = "Гриф + замки";
 	var hhh = document.createElement("td");
 	var input = document.createElement("input");
 		input.setAttribute("type", "number");
@@ -130,9 +130,9 @@ function init(){
 	tbl.appendChild(row);
 	var title = document.createElement("tr");
 	var title1 = document.createElement("th");
-	title1.innerHTML = "Weight";
+	title1.innerHTML = "Диск";
 	var title2 = document.createElement("th");
-	title2.innerHTML = "Amount of pairs";
+	title2.innerHTML = "Количество пар";
 	title.appendChild(title1);
 	title.appendChild(title2);
 	tbl.appendChild(title);
